@@ -23,7 +23,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.25rem;
 }
 
 h1 {
@@ -74,18 +74,18 @@ h6 a {
 }
 
 #login {
-  display: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 #login a {
-  align-items: center;
-  display: center;
   text-decoration: none;
   color: white;
   padding: 0.5rem 1rem;
   background-color: gray;
   border-radius: 5px;
-  display: center;
+  display: flex;
+  align-items: center;
 }
 
 #Headline {

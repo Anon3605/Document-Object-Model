@@ -50,6 +50,12 @@ console.log("Now we are using querySelectorAll() which selects all the class and
 const queryselectall=document.querySelectorAll(".nav_links","a");
 console.log("This is the querySelectorall",queryselectall);
 
-console.log("Here you can do the styles of html in javascript");
-const styleelem= document.querySelector("#login");
-styleelem.style.color("black");
+console.log("This is the Console.log(document.querySelcetorAll('.class_name'||'#Id_name'))");
+const style_elem = document.querySelector("#log_links");
+console.log(style_elem);
+console.log("Printing all the elements of the selector variable");
+for(var i of style_elem.attributes){
+    console.log(i);
+}
+console.log("Here you can change the styles\nChanging text color form white to black");
+style_elem.style.color="black";
