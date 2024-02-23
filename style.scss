@@ -25,10 +25,26 @@ header {
     justify-content: space-between;
     padding: 1rem;
 }
-
+h1{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+h6{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
 .topics{
     padding: 10px;
     display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 .paragraphs{
     background-color: gray;
@@ -55,7 +71,7 @@ header {
     display: flex;
 }
 
-.login {
+#login {
     display: center;
     align-items: center;
     a {
